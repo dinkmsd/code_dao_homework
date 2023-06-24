@@ -8,6 +8,7 @@ class CustomButton {
         '$title',
         style: TextStyle(
             fontSize: 16,
+            fontWeight: FontWeight.bold,
             color: index == curIndex ? Colors.red[900] : Colors.black),
       ),
     );
