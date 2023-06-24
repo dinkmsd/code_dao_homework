@@ -17,3 +17,18 @@ class Header {
       required this.closeAt,
       required this.ratingStar});
 }
+
+class Food {
+  String name;
+  String imageName;
+  List<String> souceList;
+  List<Color> colorList;
+  int price;
+  Food({
+    required this.name,
+    required this.imageName,
+    required this.souceList,
+    required this.colorList,
+    required this.price
+  });
+}
